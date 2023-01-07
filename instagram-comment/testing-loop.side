@@ -1,0 +1,112 @@
+{
+  "id": "1a4a7a5e-5a65-4d2b-a07c-a77ce06fc8dc",
+  "version": "2.0",
+  "name": "new-test",
+  "url": "",
+  "tests": [{
+    "id": "e2aca01c-9dbc-4f86-afc1-a3fe9ba5292f",
+    "name": "first-test",
+    "commands": [{
+      "id": "1c7fddae-21dd-4d46-adb9-4a9197662cbb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.instagram.com/p/Cm9DyYNooPD/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6fe351c-e813-4e33-a39f-702690f924e0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de78bdf0-59b3-4626-995d-d002d04feb6a",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.x76ihet",
+      "targets": [
+        ["css=.x76ihet", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_6P']/div/div/div/div/div/div/div/div/div/div[2]/section/main/div/div/article/div/div[2]/div/div[2]/section[3]/div/form/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18f3b351-0b4c-4a21-81f6-a256b4916537",
+      "comment": "",
+      "command": "doubleClickAt",
+      "target": "css=.x76ihet",
+      "targets": [
+        ["css=.x76ihet", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_6P']/div/div/div/div/div/div/div/div/div/div[2]/section/main/div/div/article/div/div[2]/div/div[2]/section[3]/div/form/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bbe4e16-a8b6-4b83-ac49-25c8f78835d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_aidk",
+      "targets": [
+        ["css=.\\_aidk", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_4+']/div/div/div/div/div/div/div/div/div/div[2]/section/main/div/div/article/div/div[2]/div/div[2]/section[3]/div/form", "xpath:idRelative"],
+        ["xpath=//form", "xpath:position"],
+        ["xpath=//form[contains(.,'Publicar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb294d16-c7ca-4f83-934e-410c7479ccfc",
+      "comment": "",
+      "command": "times",
+      "target": "5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0900747a-ac8f-4ece-8f7c-259e779b4bde",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.x76ihet",
+      "targets": [
+        ["css=.x76ihet", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_pY']/div/div/div/div/div/div/div/div/div/div[2]/section/main/div/div/article/div/div[2]/div/div[2]/section[3]/div/form/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Te amamos bicho! @cristiano"
+    }, {
+      "id": "20644571-55a4-4034-9b51-cda7e7382de7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.x1lku1pv",
+      "targets": [
+        ["css=.x1lku1pv", "css:finder"],
+        ["xpath=//div[@id='mount_0_0_LR']/div/div/div/div/div/div/div/div/div/div[2]/section/main/div/div/article/div/div[2]/div/div[2]/section[3]/div/form/div[2]/div", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80912161-ca24-4033-884b-200902f77990",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c38ce85-d99e-404f-8f1a-224d88aba292",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f20d1b42-7350-428c-8395-87dd5eadf88e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e2aca01c-9dbc-4f86-afc1-a3fe9ba5292f"]
+  }],
+  "urls": ["https://www.instagram.com/", "https://www.instagram.com/p/CnCgJZFt0z7/", "https://www.instagram.com/p/Cm_5zMzNWUC/"],
+  "plugins": []
+}
