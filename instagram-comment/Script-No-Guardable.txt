@@ -1,0 +1,14 @@
+# Debido a que no se porque el Selenium IDE no me esta guardando bien el proyecto , lo guardare a lo rustico y adjuntare una imagen en el README  
+
+COMMAND : TARGET : VALUE
+open : https://www.instagram.com/p/CmcjUz3tXBa/
+set window size : 1550x830
+mouse up : css=.x76ihet
+double click at : css=.x76ihet
+times: 3
+click:css=.\_aidk
+pause: 2000
+send keys:css=.x76ihet : Para que veas que soy loco @emao.01
+click: css=.x1lku1pv
+pause: 2500
+end
